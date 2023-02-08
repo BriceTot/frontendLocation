@@ -1,0 +1,8 @@
+{
+	"background_color": "#ffffff",
+	"theme_color": "#5cb85c",
+	"name": "Svelte RealWorld",
+	"short_name": "RealWorld",
+	"display": "minimal-ui",
+	"start_url": "/"
+}
