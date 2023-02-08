@@ -28,6 +28,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-vercel": "^2.0.1",
 		"@svelteuidev/core": "^0.9.0",
 		"svelte-modals": "^1.2.1",
 		"svelte-simple-modal": "^1.5.2"
