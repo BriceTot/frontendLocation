@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 
-const base = 'http://localhost:3000';
+const base = 'https://backend-location.onrender.com';
 
 async function send({ method, path, data, token }) {
 	const opts = { method, headers: {} };
