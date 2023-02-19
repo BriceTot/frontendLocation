@@ -16,10 +16,7 @@ export async function load({ locals, cookies, url }) {
 
 	const locations= await api.get(`locations?${q}`, cookies.get('jwt'));
 
-	//could have added a new route to the backend to get the number of document with a Location.countDocuments
-	//in order to get less loading for the location page but I preferred to not modify the backend just for a minor route
-	const fullLocations= await api.get(`locations?limit=100000`, cookies.get('jwt'));
-	const locationsCount = fullLocations.length
+	const locationsCount= await api.get(`locations/get/count`, cookies.get('jwt'));
 
 	return {
 		locations,

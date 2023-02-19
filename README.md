@@ -21,6 +21,13 @@ you can sign out on any page with the sign out link in the top right when you ar
 
 All user stories have been done (except for the modal).
 
+:warning: **Since the 19/02 update, the files have been updated to reduce the loading time in order to not timeout 
+with the vercel deployment. However, you now need to use a modified version of the backend available here :**
+https://github.com/BriceTot/secure-web-dev-backend
+
+
+
+
 
 
 
